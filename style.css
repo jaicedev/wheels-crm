@@ -1,0 +1,103 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-link {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 2rem;
+}
+.logo-link:hover {
+    color: lightslategray;
+}
+.logo-link {
+    text-decoration: none;
+    color: darkcyan;
+}
+.welcome {
+    text-align: center;
+    width: 100%;
+    padding: 5vh 0vh; 
+    color: black;
+}
+.topbar {
+    margin-top: 3vh;
+}
+.pop {
+    color: darkcyan;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+.shadow {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+}
+.logo {
+    font-size: 3rem;
+}
+.icons {
+    list-style: none;
+}
+.icon {
+    display: inline-flex;
+    font-size: 4.5rem;
+    color: darkcyan;
+    margin-top: 3vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+.email, .customers, .schedule {
+    color: black;
+    text-align: center;
+    margin-top: 3vh;
+}
+.email p, .customers p, .schedule p {
+    font-size: 1.8rem;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+.learnmore {
+    text-decoration: underline;
+    font-size: 1.8rem;
+    color: darkcyan;
+}
+.calltoaction {
+    margin-top: 10vh;
+}
+.cta-image img{
+    width: 60%;
+    margin-left: 12vh;
+}
+.cta-text h1{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.cta-text ul{
+    font-size: 2rem;
+    text-align: right;
+    list-style: none;
+}
+.button {
+    float: right;
+    background-color: darkcyan;
+    color: white;
+}
+.button:hover {
+    background-color: rgb(1, 184, 184);
+    color: white;
+}
+.footer {
+    margin-top: 10vh;
+    text-align: center;
+    background-color: rgb(231, 231, 231);
+}
