@@ -161,6 +161,23 @@ html {
     text-align: center;
     border: 1px solid black;
 }
+.price {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.02), 
+                0 2px 4px rgba(0,0,0,0.02), 
+                0 4px 8px rgba(0,0,0,0.02), 
+                0 8px 16px rgba(0,0,0,0.02),
+                0 16px 32px rgba(0,0,0,0.02), 
+                0 32px 64px rgba(0,0,0,0.02);
+}
+.plan-button {
+    background-color: darkcyan;
+    color: white;
+}
+.disclaimer {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+}
 .plan-title {
     font-size: 4rem;
 }
@@ -183,5 +200,9 @@ html {
 .gray {
     background-color: rgb(233, 233, 233);
 }
-.main-plan {
+.main-plan{
+    
+}
+.sub-plan {
+    margin-top: 4vh;
 }
