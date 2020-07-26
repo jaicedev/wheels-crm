@@ -156,3 +156,32 @@ html {
 .center {
     text-align: center;
 }
+.price {
+    list-style: none;
+    text-align: center;
+    border: 1px solid black;
+}
+.plan-title {
+    font-size: 4rem;
+}
+.plan-price {
+    font-size: 2rem;
+    font-style: italic;
+    color: darkcyan;
+}
+.plan-feature { 
+    padding: 2vh 2vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.plan-link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: darkcyan;
+    padding: 2vh 2vh;
+}
+.gray {
+    background-color: rgb(233, 233, 233);
+}
+.main-plan {
+}
