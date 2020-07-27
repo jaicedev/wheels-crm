@@ -26,13 +26,13 @@
                         <a href="./about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./pricing.html" class="nav-link activenav">Pricing</a>
+                        <a href="./pricing.html" class="nav-link">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./contact.html" class="nav-link">Contact</a>
+                        <a href="./contact.html" class="nav-link activenav">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Sign In</a>
+                        <a href="./sign.html" class="nav-link">Sign In</a>
                     </li>
                 </ul>
             </nav>
@@ -40,52 +40,45 @@
     </div>
     <div class="container">
         <div class="twelve-columns welcome">
-            <h1 class="header">Plans</h1>
+            <h1 class="header">Get in Touch.</h1>
         </div>
     </div>
     <div class="container">
-        <div class="four columns">
-            <ul class="price sub-plan">
-                <li class="plan-title">Basic</li>
-                <li class="plan-price">$4.99 / Month*</li>
-                <li class="plan-feature gray">CRM Access</li>
-                <li class="plan-feature">Email Integration</li>
-                <li class="plan-feature gray">1000 Active Leads</li>
-                <li class="plan-feature">Automatic Reminders</li>
-                <li><a href="#" class="plan-link">See All</a></li>
-                <li><button class="plan-button">Sign Up</button></li>
-            </ul>
-        </div>
-        <div class="four columns">
-            <ul class="price main-plan">
-                <li class="plan-title">Team</li>
-                <li class="plan-price">$49.99 / Month*</li>
-                <li class="plan-feature gray">Team Dashboard + CRM</li>
-                <li class="plan-feature">Automatic Scheduling</li>
-                <li class="plan-feature gray">Unlimited Active Leads</li>
-                <li class="plan-feature">Full Suite Automation</li>
-                <li class="plan-feature gray">1-49 Team Members</li>
-                <li><a href="#" class="plan-link">See All</a></li>
-                <li><button class="plan-button">Sign Up</button></li>
-            </ul>
-        </div>
-        <div class="four columns">
-            <ul class="price sub-plan">
-                <li class="plan-title">Pro</li>
-                <li class="plan-price">$14.99 / Month*</li>
-                <li class="plan-feature gray">Pro Data Tools</li>
-                <li class="plan-feature">Email Automation</li>
-                <li class="plan-feature gray">5000 Active Leads</li>
-                <li class="plan-feature">Automatic Reminders</li>
-                <li><a href="#" class="plan-link">See All</a></li>
-                <li><button class="plan-button">Sign Up</button></li>
-            </ul>
-        </div>
-        <div class="container">
-            <div class="twelve columns">
-                <h6 class="disclaimer">*with annual subscription</h6>
+        <form action="" class="contact-form">
+            <div class="row">
+                <div class="six columns">
+                    <label for="firstentry">First Name:</label>
+                    <input type="text" class="u-full-width" id="firstentry" placeholder="First Name">
+                </div>
+                <div class="six columns">
+                    <label for="formselevtion">Reason for contacting</label>
+                    <select class="u-full-width" id="formselection">
+                        <option value="Option 1">Plan Information</option>
+                        <option value="Option 2">Support Request</option>
+                        <option value="Option 3">Request a Demo</option>
+                    </select>
+                </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="six columns">
+                    <label for="businessname">Business Name:</label>
+                    <input type="text" class="u-full-width" id="businessname" placeholder="Business Name:">
+                </div>
+                <div class="six columns">
+                    <label for="emailentry">Email Address</label>
+                    <input type="text" class="u-full-width" id="emailentry" placeholder="Email Address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" class="u-full-width"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input class="button-primary" type="submit" value="submit"></input>
+            </div>
+        </form>
     </div>
     <div class="container footer">
         <div class="four columns">
@@ -98,13 +91,13 @@
             <h5>Navigate</h5>
             <ul class="mini-nav">
                 <li class="mini-nav-item">
-                    <a href="" class="mini-nav-link">About</a>
+                    <a href="./about.html" class="mini-nav-link">About</a>
                 </li>
                 <li class="mini-nav-item">
                     <a href="" class="mini-nav-link">Pricing</a>
                 </li>
                 <li class="mini-nav-item">
-                    <a href="" class="mini-nav-link">Contact</a>
+                    <a href="./contact.html" class="mini-nav-link">Contact</a>
                 </li>
                 <li class="mini-nav-item">
                     <a href="" class="mini-nav-link">Sign In</a>
@@ -128,4 +121,3 @@
         </div>
     </div>
 </body>
-</html>

@@ -14,9 +14,6 @@
 <body>
     <div class="container topbar">
         <div class="twelve columns">
-            <h5 class="logo"><a href="#" class="logo-link"><i class="fas fa-car"></i></a></h5>
-        </div>
-        <div class="twelve columns">
             <nav class="navcontainer">
                 <ul class="nav-list">
                     <li class="nav-item">
@@ -26,13 +23,13 @@
                         <a href="./about.html" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./pricing.html" class="nav-link activenav">Pricing</a>
+                        <a href="./pricing.html" class="nav-link">Pricing</a>
                     </li>
                     <li class="nav-item">
                         <a href="./contact.html" class="nav-link">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Sign In</a>
+                        <a href="#" class="nav-link activenav">Sign In</a>
                     </li>
                 </ul>
             </nav>
@@ -40,51 +37,32 @@
     </div>
     <div class="container">
         <div class="twelve-columns welcome">
-            <h1 class="header">Plans</h1>
+            <h1 class="header"><i class="fas fa-car"></i></h1>
+            <h3 class="header">Login</h3>
         </div>
     </div>
     <div class="container">
-        <div class="four columns">
-            <ul class="price sub-plan">
-                <li class="plan-title">Basic</li>
-                <li class="plan-price">$4.99 / Month*</li>
-                <li class="plan-feature gray">CRM Access</li>
-                <li class="plan-feature">Email Integration</li>
-                <li class="plan-feature gray">1000 Active Leads</li>
-                <li class="plan-feature">Automatic Reminders</li>
-                <li><a href="#" class="plan-link">See All</a></li>
-                <li><button class="plan-button">Sign Up</button></li>
-            </ul>
-        </div>
-        <div class="four columns">
-            <ul class="price main-plan">
-                <li class="plan-title">Team</li>
-                <li class="plan-price">$49.99 / Month*</li>
-                <li class="plan-feature gray">Team Dashboard + CRM</li>
-                <li class="plan-feature">Automatic Scheduling</li>
-                <li class="plan-feature gray">Unlimited Active Leads</li>
-                <li class="plan-feature">Full Suite Automation</li>
-                <li class="plan-feature gray">1-49 Team Members</li>
-                <li><a href="#" class="plan-link">See All</a></li>
-                <li><button class="plan-button">Sign Up</button></li>
-            </ul>
-        </div>
-        <div class="four columns">
-            <ul class="price sub-plan">
-                <li class="plan-title">Pro</li>
-                <li class="plan-price">$14.99 / Month*</li>
-                <li class="plan-feature gray">Pro Data Tools</li>
-                <li class="plan-feature">Email Automation</li>
-                <li class="plan-feature gray">5000 Active Leads</li>
-                <li class="plan-feature">Automatic Reminders</li>
-                <li><a href="#" class="plan-link">See All</a></li>
-                <li><button class="plan-button">Sign Up</button></li>
-            </ul>
-        </div>
-        <div class="container">
-            <div class="twelve columns">
-                <h6 class="disclaimer">*with annual subscription</h6>
-            </div>
+        <div class="twelve columns login">
+            <form class="login-form shadow" action="">
+                <div class="row">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required placeholder="Username">
+                </div>
+                <div class="row">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="row">
+                    <button type="submit" class="button-1 shadow">Login</button>
+                </div>
+                <p><br>Don't Have an Account?<br><a class="activenav" href="#">Sign Up</a></p>
+                <div class="row">
+                    <p class="disclaimer nopad">Sign in Using:</p>
+                    <i class="fab fa-facebook social-icons"></i>
+                    <i class="fab fa-google social-icons"></i>
+                    <i class="fab fa-twitter social-icons"></i>
+                </div>
+            </form>
         </div>
     </div>
     <div class="container footer">
@@ -98,13 +76,13 @@
             <h5>Navigate</h5>
             <ul class="mini-nav">
                 <li class="mini-nav-item">
-                    <a href="" class="mini-nav-link">About</a>
+                    <a href="./about.html" class="mini-nav-link">About</a>
                 </li>
                 <li class="mini-nav-item">
                     <a href="" class="mini-nav-link">Pricing</a>
                 </li>
                 <li class="mini-nav-item">
-                    <a href="" class="mini-nav-link">Contact</a>
+                    <a href="./contact.html" class="mini-nav-link">Contact</a>
                 </li>
                 <li class="mini-nav-item">
                     <a href="" class="mini-nav-link">Sign In</a>
@@ -128,4 +106,3 @@
         </div>
     </div>
 </body>
-</html>
